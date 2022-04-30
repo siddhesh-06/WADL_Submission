@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: all ease 0.3s;
+}
+
+.nav-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navLink:hover {
+  transition: all ease 0.3s;
+  color: rgb(211, 210, 210);
+}
+
+.dashboard-card {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #2b74b9, #313441);
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .offcanvas {
+    background-color: rgba(33, 37, 41) !important;
+    color: #fff !important;
+  }
+
+  .btn-close {
+    color: #fff !important;
+  }
+
+  .navLink {
+    color: #fff !important;
+  }
+}
